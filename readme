@@ -1,0 +1,19 @@
+--------------------------------------------------Binary Classification using PCA----------------------------------------------------------------------------
+
+Developed by: Hari Shrawgi
+
+Language: MATLAB
+
+--------------------------------------------------Binary Classification using PCA----------------------------------------------------------------------------
+
+The scripts together constitute a binary classifier of images using PCA.
+The method works by finding the subspace of the principal components of both the classes first using the training data.
+Then, we use the projections onto these subspaces to judge the closeness of a test data point to classify the point.
+
+Following are descriptions of the various scripts:
+
+1. read_data.m: The script reads in the image data according to the particular format the data is in. Then it also pre-processes the data.
+2. get_topk_U.m: Finds the top k principal components.
+3. misclassifications.m: Implementation of the classifier which also counts the number of misclassifications as a measure of performance.
+
+-----------------------------------------x-------------------------------------x----------------------------------x----------------------------------
